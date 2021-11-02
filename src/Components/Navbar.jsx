@@ -32,6 +32,7 @@ function Navbar() {
                   Page2
                 </Link>
               </li>
+
               <li class="nav-item dropdown"></li>
             </ul>
           </div>
