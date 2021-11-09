@@ -1,0 +1,42 @@
+.Heading span {
+  font-size: 2rem;
+  font-weight: 100%;
+}
+.startbutton {
+  width: 6rem;
+  height: 3.3rem;
+}
+
+.direction {
+  position: relative;
+  width: 25rem;
+  height: 21rem;
+  top: 0rem;
+  left: 11rem;
+}
+
+.direction button {
+  position: absolute;
+  width: 6rem;
+  height: 3.5rem;
+}
+.button1 {
+  top: 0;
+  left: 9.5rem;
+}
+
+.button2 {
+  top: 7rem;
+  right: 0;
+}
+
+.button3 {
+  top: 7rem;
+  left: 0;
+}
+
+.button4 {
+  bottom: 0;
+  left: 9rem;
+  top: 14rem;
+}

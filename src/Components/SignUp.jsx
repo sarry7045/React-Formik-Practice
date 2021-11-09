@@ -1,5 +1,5 @@
 import React from "react";
-import { Formik, Form} from "formik";
+import { Formik, Form } from "formik";
 import TextField from "./TextField";
 import * as Yup from "yup";
 
@@ -33,11 +33,13 @@ function SignUp() {
         confirmPassword: "",
       }}
       validationSchema={validate}
-      onSubmit={values => {
+      onSubmit={(values) => {
         console.log(values);
+    
+        alert(JSON.stringify(values, null,"Message Sent"));
       }}
     >
-      {formik => (
+      {(formik) => (
         <div className="my-4">
           <strong>
             {" "}
@@ -71,7 +73,11 @@ function SignUp() {
               />
             </strong>
             <strong>
-              <button className="btn btn-dark mt-3 " type="submit">
+              <button
+                
+                className="btn btn-dark mt-3 "
+                type="submit"
+              >
                 Register
               </button>
             </strong>
